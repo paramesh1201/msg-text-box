@@ -1,0 +1,59 @@
+/* styles.css */
+h2{
+  align-items: center;
+  margin-left: 20px;
+}
+.message-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #121212;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .message-box-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .message-box-header h2 {
+    margin: 0;
+  }
+  
+  .close-btn {
+    float: right;
+    cursor: pointer;
+  }
+  
+  .message-box-body {
+    padding: 20px;
+  }
+  
+  .message-box-footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    text-align: right;
+  }
+  
+  .ok-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .ok-btn:hover {
+    background-color: #3e8e41;
+  }
+  input{
+    margin-left: 50px;
+  }
